@@ -1,6 +1,7 @@
 /* VARIABLES CSS*/
 :root {
   --color-principal: #f522b8;
+  --color-principal-ligth: hsl(317, 91%, 55%, 20%);
   --color-secundario: #dff984;
   --color-secundario-ligth: hsl(73, 91%, 75%, 30%);
   --color-accent: #5af646;
@@ -65,4 +66,39 @@ body {
 .nav-header a:hover {
   text-decoration: underline;
   text-underline-offset: 4px;
+}
+
+/* MAIN */
+.main {
+  min-height: 80vh;
+  width: 90%;
+  background: white;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5em;
+  margin: 2em auto;
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--color-principal-ligth);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5em;
+  margin-top: 2em;
+}
+
+.footer p {
+  font-family: var(--fuente-principal);
+  color: black;
+  font-size: 0.8em;
+}
+
+.icon-footer {
+  max-width: 3em;
+  padding-bottom: 0.5em;
 }
