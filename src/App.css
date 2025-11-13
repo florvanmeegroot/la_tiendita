@@ -75,10 +75,12 @@ body {
   background: white;
   border-radius: 24px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 5em;
-  margin: 2em auto;
+  padding: 1em;
+  margin: 1em auto;
+
 }
 
 /* FOOTER */
@@ -101,4 +103,28 @@ body {
 .icon-footer {
   max-width: 3em;
   padding-bottom: 0.5em;
+}
+
+/* CARDS */
+
+.card {
+  border: 2px solid var(--color-principal);
+  border-radius: 16px;
+  padding: 1em;
+  margin: 1em;
+  width: 30%;
+  text-align: center;
+  font-family: var(--fuente-principal);
+
+}
+.card img {
+  width: 100%;
+}
+
+
+@media (max-width: 768px) {
+  .main {
+    padding: 0em;
+    margin: 0em auto;
+  }
 }

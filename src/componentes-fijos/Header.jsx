@@ -2,7 +2,7 @@ function Header() {
   return (
     <header className="header">
       <img
-        src="./src/assets/img/icono-tienda.png"
+        src="../src/assets/img/icono-tienda.png"
         alt="Logo Tiendita"
         className="logo"
       />
