@@ -30,6 +30,10 @@ body {
   display: block;
 }
 
+a:focus {
+  outline: none;
+}
+
 /* HEADER */
 .header {
   background-color: var(--color-secundario-ligth);
@@ -80,7 +84,6 @@ body {
   justify-content: center;
   padding: 1em;
   margin: 1em auto;
-
 }
 
 /* FOOTER */
@@ -115,16 +118,76 @@ body {
   width: 30%;
   text-align: center;
   font-family: var(--fuente-principal);
-
 }
 .card img {
   width: 100%;
 }
 
+.card h2 {
+  font-size: 1.5em;
+  line-height: auto;
+  margin: 0.5em 0;
+  color: black;
+  font-family: var(--fuente-principal);
+}
 
+.categoria {
+  color: black;
+  background: var(--color-principal-ligth);
+  margin-bottom: 0.5em;
+  font-family: var(--fuente-principal);
+  font-size: 0.8em;
+  font-weight: 400;
+  padding: 0.2em 0.5em;
+  width: fit-content;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.2em 0.8em;
+  border-radius: 32px;
+}
+
+/* BOTON */
+.btn-card {
+  background-color: var(--color-principal);
+  border: none;
+  border-radius: 32px;
+  padding: 0.5em 1.5em;
+  margin: 1em;
+  cursor: pointer;
+  color: white;
+  font-family: var(--fuente-principal);
+  text-transform: uppercase;
+  font-size: 1em;
+  transition: all 0.3s ease;
+}
+
+.btn-card:hover {
+  border: 0px;
+  scale: 1.2;
+}
+
+/*MOBILE */
 @media (max-width: 768px) {
   .main {
+    flex-direction: column;
     padding: 0em;
     margin: 0em auto;
+  }
+
+  .card {
+    width: 80%;
+    margin: 1em auto;
+
+  }
+}
+
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .card {
+    width: 45%;
+    margin: 1em auto;
+    height: 560px;
   }
 }
