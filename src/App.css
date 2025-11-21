@@ -30,8 +30,17 @@ body {
   display: block;
 }
 
-a:focus {
+button {
   outline: none;
+  box-shadow: none;
+}
+
+button,
+button:focus,
+button:focus-visible {
+  outline: none;
+  box-shadow: none;
+  border: none;
 }
 
 /* HEADER */
@@ -73,7 +82,8 @@ a:focus {
 }
 
 /* MAIN */
-.main {
+.main,
+.contenedor-cards {
   min-height: 80vh;
   width: 90%;
   background: white;
@@ -109,7 +119,6 @@ a:focus {
 }
 
 /* CARDS */
-
 .card {
   border: 2px solid var(--color-principal);
   border-radius: 16px;
@@ -118,6 +127,7 @@ a:focus {
   width: 30%;
   text-align: center;
   font-family: var(--fuente-principal);
+  height: 580px;
 }
 .card img {
   width: 100%;
@@ -162,26 +172,53 @@ a:focus {
   transition: all 0.3s ease;
 }
 
-.btn-card:hover {
+.btn-card:hover,
+.btn-card:active {
   border: 0px;
   scale: 1.2;
 }
 
+/* BOTONERA DE FILTROS */
+.botonera {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.filtros button {
+  color: black;
+  font-family: var(--fuente-principal);
+  font-size: 1em;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-weight: 700;
+}
+
+.filtros button:hover,
+.filtros button.activo {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  border: transparent;
+}
+
+/* ----- MEDIAS QUERIES ----- */
 /*MOBILE */
 @media (max-width: 768px) {
-  .main {
+  .main,
+  .contenedor-cards {
     flex-direction: column;
-    padding: 0em;
-    margin: 0em auto;
+    padding: 1em;
+    margin: 1em auto;
   }
 
   .card {
     width: 80%;
     margin: 1em auto;
-
+    height: auto;
   }
 }
-
 
 /* TABLET */
 @media (min-width: 768px) and (max-width: 1024px) {

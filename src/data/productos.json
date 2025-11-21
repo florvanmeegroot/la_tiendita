@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "/src/assets/img/producto1-negro.webp",
+    "title": "Gorra Sport Negro",
+    "categoria": "Accesorios",
+    "precio": 9500
+  },
+  {
+    "id": 2,
+    "imageUrl": "/src/assets/img/producto2-verde.webp",
+    "title": "Gorra Sport Verde",
+    "categoria": "Accesorios",
+    "precio": 9500
+  },
+  {
+    "id": 3,
+    "imageUrl": "/src/assets/img/producto3-violeta.webp",
+    "title": "Gorra Sport Violeta",
+    "categoria": "Accesorios",
+    "precio": 9500
+  },
+  {
+    "id": 4,
+    "imageUrl": "/src/assets/img/producto-4.webp",
+    "title": "Zapatillas Converse Chuck Taylor All Star",
+    "categoria": "Zapatillas",
+    "precio": 76900
+  },
+  {
+    "id": 5,
+    "imageUrl": "/src/assets/img/producto-5.webp",
+    "title": "Zapatillas Converse Chuck Taylor All Star Rosa",
+    "categoria": "Zapatillas",
+    "precio": 69800
+  },
+  {
+    "id": 6,
+    "imageUrl": "/src/assets/img/producto-6.webp",
+    "title": "Zapatillas Converse Chuck Taylor All Star Rojo",
+    "categoria": "Zapatillas",
+    "precio": 74900
+  },
+  {
+    "id": 7,
+    "imageUrl": "/src/assets/img/producto7-mochilatokio-pastel.webp",
+    "title": "Mochila Tokio Pastel",
+    "categoria": "Mochilas",
+    "precio": 55000
+  },
+  {
+    "id": 8,
+    "imageUrl": "/src/assets/img/producto8-mochilabaires.webp",
+    "title": "Mochila Baires",
+    "categoria": "Mochilas",
+    "precio": 67200
+  },
+  {
+    "id": 9,
+    "imageUrl": "/src/assets/img/producto9-rinionera.webp",
+    "title": "Riñonera Beatriz Amarilla",
+    "categoria": "Riñoneras",
+    "precio": 39000
+  },
+  {
+    "id": 10,
+    "imageUrl": "/src/assets/img/producto10-rinionera.webp",
+    "title": "Riñonera Sophie night plata",
+    "categoria": "Riñoneras",
+    "precio": 27000
+  },
+  {
+    "id": 11,
+    "imageUrl": "/src/assets/img/producto11-rinionera.webp",
+    "title": "Riñonera Sophie night rosa",
+    "categoria": "Riñoneras",
+    "precio": 27000
+  },
+  {
+    "id": 12,
+    "imageUrl": "/src/assets/img/producto12-mochila.webp",
+    "title": "Mochila Maria negra night",
+    "categoria": "Mochilas",
+    "precio": 55000
+  },
+  {
+    "id": 13,
+    "imageUrl": "/src/assets/img/producto13-bandolera.webp",
+    "title": "Bandolera Tornasol",
+    "categoria": "Bandoleras",
+    "precio": 22000
+  },
+  {
+    "id": 14,
+    "imageUrl": "/src/assets/img/producto14-portacelular.webp",
+    "title": "Bandolera Portacelular Tornasol",
+    "categoria": "Bandoleras",
+    "precio": 22000
+  },
+  {
+    "id": 15,
+    "imageUrl": "/src/assets/img/producto15-vaso.webp",
+    "title": "Vaso térmico Snoopy",
+    "categoria": "Vasos térmicos",
+    "precio": 16000
+  },
+  {
+    "id": 16,
+    "imageUrl": "/src/assets/img/producto16-vaso.webp",
+    "title": "Vaso térmico Corazones",
+    "categoria": "Vasos térmicos",
+    "precio": 17500
+  },
+  {
+    "id": 17,
+    "imageUrl": "/src/assets/img/producto17-vaso.webp",
+    "title": "Vaso térmico Stich",
+    "categoria": "Vasos térmicos",
+    "precio": 20000
+  },
+  {
+    "id": 18,
+    "imageUrl": "/src/assets/img/producto18-vaso.webp",
+    "title": "Vaso térmico Strass",
+    "categoria": "Vasos térmicos",
+    "precio": 30000
+  },
+  {
+    "id": 19,
+    "imageUrl": "/src/assets/img/producto19-lentes.webp",
+    "title": "Anteojos de Sol Rosa Gold",
+    "categoria": "Accesorios",
+    "precio": 35000
+  },
+  {
+    "id": 20,
+    "imageUrl": "/src/assets/img/producto20-lentes.webp",
+    "title": "Anteojos de Sol Degradé Celeste & Carey",
+    "categoria": "Accesorios",
+    "precio": 35000
+  },
+  {
+    "id": 21,
+    "imageUrl": "/src/assets/img/producto21-lentes.webp",
+    "title": "Anteojos de Sol Espejados Degradé Rosa",
+    "categoria": "Accesorios",
+    "precio": 38000
+  }
+]

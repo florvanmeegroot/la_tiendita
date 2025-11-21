@@ -1,44 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "../componentes-variables/Card";
-import Boton from "../componentes-variables/Boton";
+import productos from "../data/productos.json";
+import Filtros from "./Filtros";
 
 function Main() {
+  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState("Todos");
+  const productosFiltrados =
+    categoriaSeleccionada === "Todos"
+      ? productos
+      : productos.filter((p) => p.categoria === categoriaSeleccionada);
+
   return (
     <main className="main">
-      <Card
-        imageUrl="../src/assets/img/producto1-negro.webp"
-        title="Gorra Sport Negro"
-        categoria="Accesorios"
+    <div id="categorias" className="botonera">
+      {/* Filtros dinámicos */}
+      <Filtros
+        productos={productos}
+        categoriaSeleccionada={categoriaSeleccionada}
+        setCategoriaSeleccionada={setCategoriaSeleccionada}
       />
-      <Card
-        imageUrl="../src/assets/img/producto2-verde.webp"
-        title="Gorra Sport Verde"
-        categoria="Accesorios"
-      />
-      <Card
-        imageUrl="./src/assets/img/producto3-violeta.webp"
-        title="Gorra Sport Violeta"
-        categoria="Accesorios"
-      />
-
-      <Card
-        imageUrl="./src/assets/img/producto-4.webp"
-        title="Zapatillas Converse Chuck Taylor All Star"
-        categoria="Zapatillas"
-      />
-
-      <Card
-        imageUrl="./src/assets/img/producto-5.webp"
-        title="Zapatillas Converse Chuck Taylor All Star Rosa"
-        categoria="Zapatillas"
-      />
-
-       <Card
-        imageUrl="./src/assets/img/producto-6.webp"
-        title="Zapatillas Converse Chuck Taylor All Star Rojo"
-        categoria="Zapatillas"
-      />
-
+      </div>
+      {/* Cards filtradas */}
+      <div className="contenedor-cards">
+        {productosFiltrados.map((item) => (
+          <Card
+            key={item.id}
+            imageUrl={item.imageUrl}
+            title={item.title}
+            categoria={item.categoria}
+            precio={item.precio}
+          />
+        ))}
+      </div>
     </main>
   );
 }
