@@ -145,5 +145,40 @@
     "title": "Anteojos de Sol Espejados Degradé Rosa",
     "categoria": "Accesorios",
     "precio": 38000
+  },
+    {
+    "id": 22,
+    "imageUrl": "/src/assets/img/producto22-medias.webp",
+    "title": "Medias \"El Comandante\" Ricardo Fort",
+    "categoria": "Medias",
+    "precio": 7200
+  },
+     {
+    "id": 23,
+    "imageUrl": "/src/assets/img/producto23-medias.webp",
+    "title": "Medias La noche estrellada Van Gogh",
+    "categoria": "Medias",
+    "precio": 7200
+  },
+     {
+    "id": 24,
+    "imageUrl": "/src/assets/img/producto24-medias.webp",
+    "title": "Soquetes Margaritas",
+    "categoria": "Medias",
+    "precio": 6400
+  },
+     {
+    "id": 25,
+    "imageUrl": "/src/assets/img/producto25-medias.webp",
+    "title": "Medias Hongos Mario Bros",
+    "categoria": "Medias",
+    "precio": 7200
+  },
+     {
+    "id": 26,
+    "imageUrl": "/src/assets/img/producto26-medias.webp",
+    "title": "Medias Volver al futuro",
+    "categoria": "Medias",
+    "precio": 7200
   }
 ]

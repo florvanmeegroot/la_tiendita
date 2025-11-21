@@ -187,6 +187,10 @@ button:focus-visible {
   margin-bottom: 1em;
 }
 
+.filtros {
+  padding-top: 1em;
+}
+
 .filtros button {
   color: black;
   font-family: var(--fuente-principal);
