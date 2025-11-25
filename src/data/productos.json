@@ -4,6 +4,7 @@
     "imageUrl": "/src/assets/img/producto1-negro.webp",
     "title": "Gorra Sport Negro",
     "categoria": "Accesorios",
+    "description": "Gorra deportiva en color negro, ideal para actividades al aire libre y uso diario.",
     "precio": 9500
   },
   {
@@ -11,6 +12,7 @@
     "imageUrl": "/src/assets/img/producto2-verde.webp",
     "title": "Gorra Sport Verde",
     "categoria": "Accesorios",
+    "description": "Gorra deportiva en color verde, perfecta para actividades al aire libre y uso diario.",
     "precio": 9500
   },
   {
@@ -18,6 +20,7 @@
     "imageUrl": "/src/assets/img/producto3-violeta.webp",
     "title": "Gorra Sport Violeta",
     "categoria": "Accesorios",
+    "description": "Gorra deportiva en color violeta, ideal para actividades al aire libre y uso diario.",
     "precio": 9500
   },
   {
@@ -25,6 +28,7 @@
     "imageUrl": "/src/assets/img/producto-4.webp",
     "title": "Zapatillas Converse Chuck Taylor All Star",
     "categoria": "Zapatillas",
+    "description": "Zapatillas clásicas Converse Chuck Taylor All Star, cómodas y versátiles para cualquier ocasión.",
     "precio": 76900
   },
   {
@@ -32,6 +36,7 @@
     "imageUrl": "/src/assets/img/producto-5.webp",
     "title": "Zapatillas Converse Chuck Taylor All Star Rosa",
     "categoria": "Zapatillas",
+    "description": "Zapatillas Converse Chuck Taylor All Star en color rosa, cómodas y versátiles para cualquier ocasión.",
     "precio": 69800
   },
   {
@@ -39,6 +44,7 @@
     "imageUrl": "/src/assets/img/producto-6.webp",
     "title": "Zapatillas Converse Chuck Taylor All Star Rojo",
     "categoria": "Zapatillas",
+    "description": "Zapatillas Converse Chuck Taylor All Star en color rojo, cómodas y versátiles para cualquier ocasión.",
     "precio": 74900
   },
   {
@@ -46,6 +52,7 @@
     "imageUrl": "/src/assets/img/producto7-mochilatokio-pastel.webp",
     "title": "Mochila Tokio Pastel",
     "categoria": "Mochilas",
+    "description": "Mochila estilo Tokio en colores pastel, perfecta para uso diario, llevar la notebook, escuela y viajes.",
     "precio": 55000
   },
   {
@@ -53,6 +60,7 @@
     "imageUrl": "/src/assets/img/producto8-mochilabaires.webp",
     "title": "Mochila Baires",
     "categoria": "Mochilas",
+    "description": "Mochila estilo Baires, colores en degradé de ultima moda. Es una mochila ideal para uso diario, llevar la notebook, escuela y viajes.",
     "precio": 67200
   },
   {
@@ -60,6 +68,7 @@
     "imageUrl": "/src/assets/img/producto9-rinionera.webp",
     "title": "Riñonera Beatriz Amarilla",
     "categoria": "Riñoneras",
+    "description": "Riñonera Beatriz en color amarillo, práctica y estilizada para llevar tus objetos personales con comodidad. Inspirada para el everyday, esta edicion confeccionada en matelasse con sus colores crean un espiritu fresco y trendy. Original y llamativa. ",
     "precio": 39000
   },
   {
@@ -67,6 +76,7 @@
     "imageUrl": "/src/assets/img/producto10-rinionera.webp",
     "title": "Riñonera Sophie night plata",
     "categoria": "Riñoneras",
+    "description": "Riñonera Sophie night en color plata, práctica y estilizada para llevar tus objetos personales con comodidad. Confeccionada en matelasse con tamaño ideal sin descuidar tu outfit.",
     "precio": 27000
   },
   {
@@ -74,6 +84,7 @@
     "imageUrl": "/src/assets/img/producto11-rinionera.webp",
     "title": "Riñonera Sophie night rosa",
     "categoria": "Riñoneras",
+    "description": "Riñonera Sophie night en color rosa, práctica y estilizada para llevar tus objetos personales con comodidad. Confeccionada en matelasse con tamaño ideal sin descuidar tu outfit.",
     "precio": 27000
   },
   {
@@ -81,6 +92,7 @@
     "imageUrl": "/src/assets/img/producto12-mochila.webp",
     "title": "Mochila Maria negra night",
     "categoria": "Mochilas",
+    "description": "Mochila Maria negra night, elegante y funcional. No sólo resiste la prueba del paso del tiempo, sino que se resignifica en múltiples reversiones: urban, night y black, en los colores de temporada y en los clásicos que no pueden faltar en tu closet ",
     "precio": 55000
   },
   {
@@ -88,6 +100,7 @@
     "imageUrl": "/src/assets/img/producto13-bandolera.webp",
     "title": "Bandolera Tornasol",
     "categoria": "Bandoleras",
+    "description": "La Bandolera Tornasol es un accesorio que combina estilo y funcionalidad para la mujer moderna. Su diseño llamativo en tonos tornasol añade un toque de originalidad a cualquier outfit",
     "precio": 22000
   },
   {
@@ -95,6 +108,7 @@
     "imageUrl": "/src/assets/img/producto14-portacelular.webp",
     "title": "Bandolera Portacelular Tornasol",
     "categoria": "Bandoleras",
+    "description": "La Bandolera Portacelular Tornasol es la combinación perfecta de funcionalidad y estilo para la mujer moderna. Confeccionada en eco cuero, esta cartera es amigable con el medio ambiente y ofrece un diseño elegante que se adapta a cualquier ocasión. Su cierre seguro garantiza que tus pertenencias permanezcan protegidas mientras te desplazas por la ciudad.",
     "precio": 22000
   },
   {
@@ -102,6 +116,7 @@
     "imageUrl": "/src/assets/img/producto15-vaso.webp",
     "title": "Vaso térmico Snoopy",
     "categoria": "Vasos térmicos",
+    "description": "Vaso térmico de acero inoxidable con diseño de Snoopy. Mantiene la temperatura de tus bebidas por más tiempo.",
     "precio": 16000
   },
   {
@@ -109,6 +124,7 @@
     "imageUrl": "/src/assets/img/producto16-vaso.webp",
     "title": "Vaso térmico Corazones",
     "categoria": "Vasos térmicos",
+    "description": "Vaso térmico de acero inoxidable con diseño de corazones. Ideal para mantener la temperatura de tus bebidas favoritas.",
     "precio": 17500
   },
   {
@@ -116,6 +132,7 @@
     "imageUrl": "/src/assets/img/producto17-vaso.webp",
     "title": "Vaso térmico Stich",
     "categoria": "Vasos térmicos",
+    "description": "Vaso térmico de acero inoxidable con diseño de Stich. Perfecto para mantener la temperatura de tus bebidas durante todo el día.",
     "precio": 20000
   },
   {
@@ -123,6 +140,7 @@
     "imageUrl": "/src/assets/img/producto18-vaso.webp",
     "title": "Vaso térmico Strass",
     "categoria": "Vasos térmicos",
+    "description": "Vaso térmico de acero inoxidable con diseño de strass. Mantiene la temperatura de tus bebidas y añade un toque de glamour a tu día.",
     "precio": 30000
   },
   {
@@ -130,6 +148,7 @@
     "imageUrl": "/src/assets/img/producto19-lentes.webp",
     "title": "Anteojos de Sol Rosa Gold",
     "categoria": "Accesorios",
+    "description": "Anteojos de sol en color rosa gold, con diseño moderno y protección UV para cuidar tus ojos con estilo.",
     "precio": 35000
   },
   {
@@ -137,6 +156,7 @@
     "imageUrl": "/src/assets/img/producto20-lentes.webp",
     "title": "Anteojos de Sol Degradé Celeste & Carey",
     "categoria": "Accesorios",
+    "description": "Anteojos de sol con diseño degradé en tonos celeste y carey, ofreciendo un look sofisticado y protección UV para tus ojos.",
     "precio": 35000
   },
   {
@@ -144,41 +164,47 @@
     "imageUrl": "/src/assets/img/producto21-lentes.webp",
     "title": "Anteojos de Sol Espejados Degradé Rosa",
     "categoria": "Accesorios",
+    "description": "Anteojos de sol espejados con diseño degradé en tonos rosa, combinando estilo y protección UV para tus ojos.",
     "precio": 38000
   },
-    {
+  {
     "id": 22,
     "imageUrl": "/src/assets/img/producto22-medias.webp",
     "title": "Medias \"El Comandante\" Ricardo Fort",
     "categoria": "Medias",
+    "description": "Medias 3/4 caña alta con diseño de \"El Comandante\" Ricardo Fort, combinando estilo y comodidad para tus pies. Miaaameeeee!",
     "precio": 7200
   },
-     {
+  {
     "id": 23,
     "imageUrl": "/src/assets/img/producto23-medias.webp",
     "title": "Medias La noche estrellada Van Gogh",
     "categoria": "Medias",
+    "description": "Medias 3/4 caña alta con diseño de La noche estrellada de Van Gogh, combinando arte y comodidad. El arte en tus pies.",
     "precio": 7200
   },
-     {
+  {
     "id": 24,
     "imageUrl": "/src/assets/img/producto24-medias.webp",
     "title": "Soquetes Margaritas",
     "categoria": "Medias",
+    "description": "Soquetes con diseño de margaritas, combinando estilo y comodidad para tus pies. Ternura para tus deditos",
     "precio": 6400
   },
-     {
+  {
     "id": 25,
     "imageUrl": "/src/assets/img/producto25-medias.webp",
     "title": "Medias Hongos Mario Bros",
     "categoria": "Medias",
+    "description": "Medias 3/4 caña alta con diseño de hongos de Mario Bros, combinando diversión y comodidad para tus pies. ¡Salta al estilo retro!",
     "precio": 7200
   },
-     {
+  {
     "id": 26,
     "imageUrl": "/src/assets/img/producto26-medias.webp",
     "title": "Medias Volver al futuro",
     "categoria": "Medias",
+    "description": "Medias 3/4 caña alta con diseño de Volver al futuro, combinando estilo y comodidad para tus pies. Viaja en el tiempo con cada paso.",
     "precio": 7200
   }
 ]

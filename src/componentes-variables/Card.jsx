@@ -1,4 +1,5 @@
 import Boton from "./Boton";
+import { Link } from "react-router-dom";
 
 function Card(props) {
   return (
@@ -6,11 +7,18 @@ function Card(props) {
       <p className="categoria">{props.categoria}</p>
       <img src={props.imageUrl} alt={props.title} />
       <div className="card-content">
-        <h2>{props.title}</h2>
-        <h3>{props.description}</h3>
-        <h4>${props.precio}</h4>
+        <h2 className="titulo-card">{props.title}</h2>
+        <p className="precio">${props.precio}</p>
 
-        <Boton text="Ver detalles" />
+      <button className="btn-card">
+        <Link
+          className="ver-mas"
+          to={`/producto/${props.id}`}
+          state={{ producto: props }}
+        >
+        Ver detalles
+        </Link>
+        </button>
       </div>
     </div>
   );

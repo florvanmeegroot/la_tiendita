@@ -47,6 +47,8 @@ function Main() {
             title={item.title}
             categoria={item.categoria}
             precio={item.precio}
+            id={item.id}   
+            description={item.description}
           />
         ))}
       </div>

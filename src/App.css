@@ -81,6 +81,28 @@ button:focus-visible {
   text-underline-offset: 4px;
 }
 
+/* CARRITO EN EL HEADER */
+.cart-icon {
+  position: fixed;
+  display: flex;
+  bottom: 20px;
+  right: 20px;
+  background: var(--color-principal); ;
+  color: #fff;
+  padding: 15px;
+  border-radius: 50%;
+} 
+
+.icono-carrito {
+  max-width: 1.1em;
+}
+
+.cantidad-carrito {
+  margin-left: 2px;
+  font-size: 1em;
+  font-weight: 500;
+}
+
 /* MAIN */
 .main,
 .contenedor-cards {
@@ -133,7 +155,7 @@ button:focus-visible {
   width: 100%;
 }
 
-.card h2 {
+.titulo-card {
   font-size: 1.5em;
   line-height: auto;
   margin: 0.5em 0;
@@ -167,9 +189,13 @@ button:focus-visible {
   cursor: pointer;
   color: white;
   font-family: var(--fuente-principal);
-  text-transform: uppercase;
   font-size: 1em;
   transition: all 0.3s ease;
+}
+
+.btn-card a {
+  color: white;
+  text-decoration: none;
 }
 
 .btn-card:hover,
@@ -207,6 +233,66 @@ button:focus-visible {
   border: transparent;
 }
 
+/* PRODUCTO VISTA */
+.vista-producto-contenedor {
+  background: white;
+  max-width: 90%;
+  margin: 3em auto;
+  padding: 3em;
+  border-radius: 24px;
+}
+
+.producto-img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 16px;
+  margin: 1em auto;
+  padding: 1em auto;
+}
+
+.volver {
+  padding: 1.5em;
+  float: right;
+}
+
+.btn-volver {
+  color: var(--color-principal);
+  font-family: var(--fuente-principal);
+  font-size: 1.1em;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn-volver:hover {
+  text-decoration: none;
+  color: var(--color-accent);
+}
+
+.precio {
+  font-size: 1.3em;
+  font-weight: 800;
+  font-family: var(--fuente-principal);
+  color: var(--color-principal);
+  margin: 0.5em 0;
+}
+
+.precio-nacional {
+  font-size: 0.8em;
+  font-family: var(--fuente-principal);
+  color: var(--color-principal);
+  font-weight: 300;
+  margin: 0.5em 0;
+}
+
+.descripcion {
+  font-size: 1em;
+  font-family: var(--fuente-principal);
+  color: black;
+  line-height: 1.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
 /* ----- MEDIAS QUERIES ----- */
 /*MOBILE */
 @media (max-width: 768px) {
@@ -218,9 +304,19 @@ button:focus-visible {
   }
 
   .card {
-    width: 80%;
+    width: 100%;
     margin: 1em auto;
     height: auto;
+  }
+
+  .vista-producto-contenedor {
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 5em;
+  }
+
+  .producto-info {
+    margin-bottom: 2em;
   }
 }
 
