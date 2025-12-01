@@ -16,9 +16,9 @@ function App() {
           <Header />
 
           <Routes>
-            <Route exact path="/" element={<Main />} />
-            <Route exact path="/producto/:id" element={<ProductoVista />} />
-            <Route exact path="/carrito" element={<Carrito />} />
+            <Route path="/" element={<Main />} />
+            <Route path="/producto/:id" element={<ProductoVista />} />
+            <Route path="/carrito" element={<Carrito />} />
           </Routes>
 
           <Footer />
