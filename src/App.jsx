@@ -10,9 +10,9 @@ import Carrito from "./componentes/Carrito";
 
 function App() {
   return (
-    <CartProvider>
-      <StrictMode>
-        <BrowserRouter>
+    <StrictMode>
+      <BrowserRouter>
+        <CartProvider>
           <Header />
 
           <Routes>
@@ -22,9 +22,9 @@ function App() {
           </Routes>
 
           <Footer />
-        </BrowserRouter>
-      </StrictMode>
-    </CartProvider>
+        </CartProvider>
+      </BrowserRouter>
+    </StrictMode>
   );
 }
 

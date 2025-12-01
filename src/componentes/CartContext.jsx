@@ -1,24 +1,28 @@
 import { createContext, useState, useContext } from "react";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
+import { useNavigate } from "react-router-dom";
 
 const CartContext = createContext();
 
 export function CartProvider({ children }) {
   const MySwal = withReactContent(Swal);
+  const navigate = useNavigate();
 
   const sweetAlert = () => {
     MySwal.fire({
       icon: "success",
       title: "Se agregó al carrito",
-      showConfirmButton: false,
-      timer: 2000,
-      timerProgressBar: true,
+      showConfirmButton: true,
+      confirmButtonText: "Ir al carrito",
       customClass: {
-        popup: "mi-popup",
-        title: "mi-titulo",
-        icon: "mi-icono",
+        title: "alert-titulo",
+        confirmButton: "alert-boton",
       },
+    }).then((result) => {
+      if (result.isConfirmed) {
+        navigate("/carrito");
+      }
     });
   };
 
