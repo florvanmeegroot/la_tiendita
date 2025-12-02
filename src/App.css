@@ -83,6 +83,14 @@ button:focus-visible {
   text-underline-offset: 4px;
 }
 
+.cart-count {
+  font-size: 0.9em;
+  color: white;
+  background: var(--color-principal);
+  padding: 5px 8px;
+  border-radius: 50%;
+}
+
 /* CARRITO EN EL HEADER */
 .cart-icon {
   position: fixed;
