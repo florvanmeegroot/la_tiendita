@@ -4,7 +4,7 @@ import { HashLink } from "react-router-hash-link";
 
 function Header() {
   const { cart } = useCart();
-  const notiCarrito = cart.length;
+  const totalQuantity = cart.reduce((acc, item) => acc + item.quantity, 0);
 
   return (
     <header className="header">
@@ -22,9 +22,12 @@ function Header() {
           Ir a Categorías
         </HashLink>
         <Link to="/contacto">Contacto</Link>
+
         <Link to="/carrito">
           Mi carrito{" "}
-          {notiCarrito > 0 && <span className="cart-count">{notiCarrito}</span>}
+          {totalQuantity > 0 && (
+            <span className="cart-count">{totalQuantity}</span>
+          )}
         </Link>
       </nav>
 
@@ -36,7 +39,7 @@ function Header() {
             className="icono-carrito"
           />
         </Link>
-        <p className="cantidad-carrito">{cart.length}</p>
+        <p className="cantidad-carrito">{totalQuantity}</p>
       </div>
     </header>
   );

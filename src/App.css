@@ -337,6 +337,19 @@ button:focus-visible {
   scale: 1.2;
 }
 
+.swal2-close {
+  font-size: 1.8rem !important;
+  padding: 1em !important;
+  color: black !important;
+  background: transparent !important;
+  border: none !important;
+  opacity: 1 !important;
+}
+
+.swal2-close:hover {
+  transform: scale(1.3) !important;
+}
+
 /* CARRITO */
 .contenedor-carrito {
   background: white;
@@ -366,6 +379,18 @@ button:focus-visible {
 .item-carrito img {
   width: 100px;
   border-radius: 8px;
+}
+
+.total {
+  display: flex;
+  justify-content: end;
+}
+
+.total h2 {
+  font-family: var(--fuente-principal);
+  font-size: 1.2em;
+  font-weight: 800;
+  color: black;
 }
 
 .vacio {
