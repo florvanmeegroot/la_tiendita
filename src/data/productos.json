@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "imageUrl": "/src/assets/img/producto1-negro.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018892/producto2-verde_ni3een.webp",
     "title": "Gorra Sport Negro",
     "categoriaId": "Accesorios",
     "description": "Gorra deportiva en color negro, ideal para actividades al aire libre y uso diario.",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "imageUrl": "/src/assets/img/producto2-verde.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018892/producto1-negro_iptrfr.webp",
     "title": "Gorra Sport Verde",
     "categoriaId": "Accesorios",
     "description": "Gorra deportiva en color verde, perfecta para actividades al aire libre y uso diario.",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "imageUrl": "/src/assets/img/producto3-violeta.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018892/producto3-violeta_jv1k8b.webp",
     "title": "Gorra Sport Violeta",
     "categoriaId": "Accesorios",
     "description": "Gorra deportiva en color violeta, ideal para actividades al aire libre y uso diario.",
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "imageUrl": "/src/assets/img/producto-4.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018892/producto-4_jcztd1.webp",
     "title": "Zapatillas Converse Chuck Taylor All Star",
     "categoriaId": "Zapatillas",
     "description": "Zapatillas clásicas Converse Chuck Taylor All Star, cómodas y versátiles para cualquier ocasión.",
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "imageUrl": "/src/assets/img/producto-5.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018892/producto-5_ocessn.webp",
     "title": "Zapatillas Converse Chuck Taylor All Star Rosa",
     "categoriaId": "Zapatillas",
     "description": "Zapatillas Converse Chuck Taylor All Star en color rosa, cómodas y versátiles para cualquier ocasión.",
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "imageUrl": "/src/assets/img/producto-6.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018892/producto-6_zqwkn2.webp",
     "title": "Zapatillas Converse Chuck Taylor All Star Rojo",
     "categoriaId": "Zapatillas",
     "description": "Zapatillas Converse Chuck Taylor All Star en color rojo, cómodas y versátiles para cualquier ocasión.",
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "imageUrl": "/src/assets/img/producto7-mochilatokio-pastel.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018893/producto7-mochilatokio-pastel_evraky.webp",
     "title": "Mochila Tokio Pastel",
     "categoriaId": "Mochilas",
     "description": "Mochila estilo Tokio en colores pastel, perfecta para uso diario, llevar la notebook, escuela y viajes.",
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "imageUrl": "/src/assets/img/producto8-mochilabaires.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018892/producto8-mochilabaires_jnzsrd.webp",
     "title": "Mochila Baires",
     "categoriaId": "Mochilas",
     "description": "Mochila estilo Baires, colores en degradé de ultima moda. Es una mochila ideal para uso diario, llevar la notebook, escuela y viajes.",
@@ -65,7 +65,7 @@
   },
   {
     "id": 9,
-    "imageUrl": "/src/assets/img/producto9-rinionera.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018893/producto9-rinionera_k7omxc.webp",
     "title": "Riñonera Beatriz Amarilla",
     "categoriaId": "Riñoneras",
     "description": "Riñonera Beatriz en color amarillo, práctica y estilizada para llevar tus objetos personales con comodidad. Inspirada para el everyday, esta edicion confeccionada en matelasse con sus colores crean un espiritu fresco y trendy. Original y llamativa. ",
@@ -73,7 +73,7 @@
   },
   {
     "id": 10,
-    "imageUrl": "/src/assets/img/producto10-rinionera.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018893/producto10-rinionera_ea12iy.webp",
     "title": "Riñonera Sophie night plata",
     "categoriaId": "Riñoneras",
     "description": "Riñonera Sophie night en color plata, práctica y estilizada para llevar tus objetos personales con comodidad. Confeccionada en matelasse con tamaño ideal sin descuidar tu outfit.",
@@ -81,7 +81,7 @@
   },
   {
     "id": 11,
-    "imageUrl": "/src/assets/img/producto11-rinionera.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018894/producto11-rinionera_uas6hl.webp",
     "title": "Riñonera Sophie night rosa",
     "categoriaId": "Riñoneras",
     "description": "Riñonera Sophie night en color rosa, práctica y estilizada para llevar tus objetos personales con comodidad. Confeccionada en matelasse con tamaño ideal sin descuidar tu outfit.",
@@ -89,7 +89,7 @@
   },
   {
     "id": 12,
-    "imageUrl": "/src/assets/img/producto12-mochila.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018896/producto12-mochila_jwjjjl.webp",
     "title": "Mochila Maria negra night",
     "categoriaId": "Mochilas",
     "description": "Mochila Maria negra night, elegante y funcional. No sólo resiste la prueba del paso del tiempo, sino que se resignifica en múltiples reversiones: urban, night y black, en los colores de temporada y en los clásicos que no pueden faltar en tu closet ",
@@ -97,7 +97,7 @@
   },
   {
     "id": 13,
-    "imageUrl": "/src/assets/img/producto13-bandolera.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018896/producto13-bandolera_mi0vow.webp",
     "title": "Bandolera Tornasol",
     "categoriaId": "Bandoleras",
     "description": "La Bandolera Tornasol es un accesorio que combina estilo y funcionalidad para la mujer moderna. Su diseño llamativo en tonos tornasol añade un toque de originalidad a cualquier outfit",
@@ -105,7 +105,7 @@
   },
   {
     "id": 14,
-    "imageUrl": "/src/assets/img/producto14-portacelular.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018901/producto14-portacelular_jhojtc.webp",
     "title": "Bandolera Portacelular Tornasol",
     "categoriaId": "Bandoleras",
     "description": "La Bandolera Portacelular Tornasol es la combinación perfecta de funcionalidad y estilo para la mujer moderna. Confeccionada en eco cuero, esta cartera es amigable con el medio ambiente y ofrece un diseño elegante que se adapta a cualquier ocasión. Su cierre seguro garantiza que tus pertenencias permanezcan protegidas mientras te desplazas por la ciudad.",
@@ -113,7 +113,7 @@
   },
   {
     "id": 15,
-    "imageUrl": "/src/assets/img/producto15-vaso.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018925/producto15-vaso_mtfyvd.webp",
     "title": "Vaso térmico Snoopy",
     "categoriaId": "Vasos térmicos",
     "description": "Vaso térmico de acero inoxidable con diseño de Snoopy. Mantiene la temperatura de tus bebidas por más tiempo.",
@@ -121,7 +121,7 @@
   },
   {
     "id": 16,
-    "imageUrl": "/src/assets/img/producto16-vaso.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018926/producto16-vaso_qyhttb.webp",
     "title": "Vaso térmico Corazones",
     "categoriaId": "Vasos térmicos",
     "description": "Vaso térmico de acero inoxidable con diseño de corazones. Ideal para mantener la temperatura de tus bebidas favoritas.",
@@ -129,7 +129,7 @@
   },
   {
     "id": 17,
-    "imageUrl": "/src/assets/img/producto17-vaso.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018926/producto17-vaso_ldq1n0.webp",
     "title": "Vaso térmico Stich",
     "categoriaId": "Vasos térmicos",
     "description": "Vaso térmico de acero inoxidable con diseño de Stich. Perfecto para mantener la temperatura de tus bebidas durante todo el día.",
@@ -137,7 +137,7 @@
   },
   {
     "id": 18,
-    "imageUrl": "/src/assets/img/producto18-vaso.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018927/producto18-vaso_xo7o80.webp",
     "title": "Vaso térmico Strass",
     "categoriaId": "Vasos térmicos",
     "description": "Vaso térmico de acero inoxidable con diseño de strass. Mantiene la temperatura de tus bebidas y añade un toque de glamour a tu día.",
@@ -145,7 +145,7 @@
   },
   {
     "id": 19,
-    "imageUrl": "/src/assets/img/producto19-lentes.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018929/producto19-lentes_bsnu1s.webp",
     "title": "Anteojos de Sol Rosa Gold",
     "categoriaId": "Accesorios",
     "description": "Anteojos de sol en color rosa gold, con diseño moderno y protección UV para cuidar tus ojos con estilo.",
@@ -153,7 +153,7 @@
   },
   {
     "id": 20,
-    "imageUrl": "/src/assets/img/producto20-lentes.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018929/producto20-lentes_ygd9la.webp",
     "title": "Anteojos de Sol Degradé Celeste & Carey",
     "categoriaId": "Accesorios",
     "description": "Anteojos de sol con diseño degradé en tonos celeste y carey, ofreciendo un look sofisticado y protección UV para tus ojos.",
@@ -161,7 +161,7 @@
   },
   {
     "id": 21,
-    "imageUrl": "/src/assets/img/producto21-lentes.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018932/producto21-lentes_kdrz0v.webp",
     "title": "Anteojos de Sol Espejados Degradé Rosa",
     "categoriaId": "Accesorios",
     "description": "Anteojos de sol espejados con diseño degradé en tonos rosa, combinando estilo y protección UV para tus ojos.",
@@ -169,7 +169,7 @@
   },
   {
     "id": 22,
-    "imageUrl": "/src/assets/img/producto22-medias.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018932/producto22-medias_dujsxn.webp",
     "title": "Medias \"El Comandante\" Ricardo Fort",
     "categoriaId": "Medias",
     "description": "Medias 3/4 caña alta con diseño de \"El Comandante\" Ricardo Fort, combinando estilo y comodidad para tus pies. Miaaameeeee!",
@@ -177,7 +177,7 @@
   },
   {
     "id": 23,
-    "imageUrl": "/src/assets/img/producto23-medias.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018933/producto23-medias_jfacd2.webp",
     "title": "Medias La noche estrellada Van Gogh",
     "categoriaId": "Medias",
     "description": "Medias 3/4 caña alta con diseño de La noche estrellada de Van Gogh, combinando arte y comodidad. El arte en tus pies.",
@@ -185,7 +185,7 @@
   },
   {
     "id": 24,
-    "imageUrl": "/src/assets/img/producto24-medias.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018935/producto24-medias_kivoyp.webp",
     "title": "Soquetes Margaritas",
     "categoriaId": "Medias",
     "description": "Soquetes con diseño de margaritas, combinando estilo y comodidad para tus pies. Ternura para tus deditos",
@@ -193,7 +193,7 @@
   },
   {
     "id": 25,
-    "imageUrl": "/src/assets/img/producto25-medias.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018935/producto25-medias_ivtgtg.webp",
     "title": "Medias Hongos Mario Bros",
     "categoriaId": "Medias",
     "description": "Medias 3/4 caña alta con diseño de hongos de Mario Bros, combinando diversión y comodidad para tus pies. ¡Salta al estilo retro!",
@@ -201,7 +201,7 @@
   },
   {
     "id": 26,
-    "imageUrl": "/src/assets/img/producto26-medias.webp",
+    "imageUrl": "https://res.cloudinary.com/dpemux7zm/image/upload/v1767018936/producto26-medias_jqrq4h.webp",
     "title": "Medias Volver al futuro",
     "categoriaId": "Medias",
     "description": "Medias 3/4 caña alta con diseño de Volver al futuro, combinando estilo y comodidad para tus pies. Viaja en el tiempo con cada paso.",

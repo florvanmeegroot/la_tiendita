@@ -1,16 +1,38 @@
 ## 🛍️ La Tiendita – Proyecto Ecommerce (Curso React - Coderhouse)
 
-Este proyecto es una tienda ecommerce desarrollada como parte del curso de **React** de Coderhouse.  
-La aplicación permite visualizar productos, filtrarlos por categoría y navegar entre vistas utilizando enrutamiento basado en React.
+Este proyecto es una tienda ecommerce desarrollada como parte del curso de **React** de Coderhouse.
+La aplicación permite:
 
-La arquitectura está construida con **React**, estilos en **CSS**, y el uso de bibliotecas como:
+- Visualizar un listado de productos
+- Filtrarlos por categoría
+- Navegar entre distintas vistas mediante enrutamiento dinámico
 
-- **react-router-dom** para el enrutamiento
-- **react-router-hash-link** para navegación con anclas
+## ⚙️ Tecnologías y herramientas
 
-También se utilizo un **fetch** para obtener productos desde un archivo JSON local.
+El proyecto está construido utilizando:
 
-El objetivo del proyecto es aprender y aplicar conceptos clave de React como componentes, hooks, routing, props, manejo de estado y consumo de datos externos.
+- React
+- CSS para los estilos
+- react-router-dom para el enrutamiento de la aplicación
+- react-router-hash-link para la navegación con anclas
+
+## 🔗 Integraciones y servicios
+
+En el proyecto se utilizó:
+
+- Firebase para obtener y almacenar productos y órdenes de compra
+- Cloudinary como CDN para la gestión y carga de imágenes
+- Netlify para el despliegue de la aplicación
+
+## 🎯 Objetivo del proyecto
+
+El objetivo principal de este proyecto es aplicar y afianzar conceptos fundamentales de React, tales como:
+
+- Componentes reutilizables
+- Hooks (useState, useEffect, useContext)
+- Enrutamiento con React Router
+- Manejo de estado global
+- Consumo de datos desde servicios externos
 
 ## 📬 Contacto
 

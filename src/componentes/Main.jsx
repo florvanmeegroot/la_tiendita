@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import { collection, getDocs } from "firebase/firestore";
+import { db } from "../data/firebase";
 import Card from "./Card";
 import Filtros from "./Filtros";
 
@@ -10,12 +12,18 @@ function Main() {
   useEffect(() => {
     const fetchProductos = async () => {
       try {
-        const response = await fetch("/src/data/productos.json");
-        const data = await response.json();
-        setProductos(data);
-        setLoading(false);
+        const querySnapshot = await getDocs(collection(db, "productos"));
+
+        const productosData = querySnapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data(),
+        }));
+
+        setProductos(productosData);
       } catch (error) {
         console.error("Error al cargar productos:", error);
+      } finally {
+        setLoading(false);
       }
     };
 
@@ -27,7 +35,9 @@ function Main() {
   const productosFiltrados =
     categoriaSeleccionada === "todos"
       ? productos
-      : productos.filter((p) => p.categoriaId === categoriaSeleccionada);
+      : productos.filter(
+          (producto) => producto.categoriaId === categoriaSeleccionada
+        );
 
   return (
     <main className="main">
@@ -57,3 +67,4 @@ function Main() {
 }
 
 export default Main;
+

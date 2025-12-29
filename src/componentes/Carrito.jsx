@@ -5,7 +5,7 @@ import { db } from "../data/firebase";
 import Swal from "sweetalert2";
 
 function Carrito() {
-  const { cart, addToCart, removeOne, removeAll, getTotal } = useCart();
+  const { cart, addToCart, removeOne, removeAll, getTotal, clearCart } = useCart();
 
   const [formData, setFormData] = useState({
     nombre: "",
@@ -39,6 +39,7 @@ function Carrito() {
 
     try {
       const docRef = await addDoc(collection(db, "orders"), order);
+      clearCart(); 
 
       // sweet alert para finalizar la compra
       Swal.fire({

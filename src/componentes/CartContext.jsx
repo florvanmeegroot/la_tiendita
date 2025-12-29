@@ -75,6 +75,11 @@ export function CartProvider({ children }) {
     setCart((prev) => prev.filter((p) => p.id !== id));
   };
 
+  // limpiar carrito
+  const clearCart = () => {
+    setCart([]);
+  };
+
   // total del carrito
   const getTotal = () =>
     cart.reduce((acc, p) => acc + p.precio * p.quantity, 0);
@@ -88,6 +93,7 @@ export function CartProvider({ children }) {
         removeOne,
         removeAll,
         getTotal,
+        clearCart,
       }}
     >
       {children}
