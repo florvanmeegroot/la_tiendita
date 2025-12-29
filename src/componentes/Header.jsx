@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { useCart } from "./CartContext";
 import { HashLink } from "react-router-hash-link";
+import iconoTienda from "../assets/img/icono-tienda.png";
+import iconoCarrito from "../assets/img/icono-carrito.png";
 
 function Header() {
   const { cart } = useCart();
@@ -9,7 +11,7 @@ function Header() {
   return (
     <header className="header">
       <img
-        src="../src/assets/img/icono-tienda.png"
+        src={iconoTienda}
         alt="Logo Tiendita"
         className="logo"
       />
@@ -34,7 +36,7 @@ function Header() {
       <div className="cart-icon">
         <Link to="/carrito">
           <img
-            src="../src/assets/img/icono-carrito.png"
+            src={iconoCarrito}
             alt="Icono Carrito"
             className="icono-carrito"
           />
