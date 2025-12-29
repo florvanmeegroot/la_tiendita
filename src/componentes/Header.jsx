@@ -10,11 +10,7 @@ function Header() {
 
   return (
     <header className="header">
-      <img
-        src={iconoTienda}
-        alt="Logo Tiendita"
-        className="logo"
-      />
+      <img src={iconoTienda} alt="Logo Tiendita" className="logo" />
 
       <h1 className="tittle-header">La Tiendita</h1>
 
@@ -23,7 +19,6 @@ function Header() {
         <HashLink smooth to="/#categorias">
           Ir a Categorías
         </HashLink>
-        <Link to="/contacto">Contacto</Link>
 
         <Link to="/carrito">
           Mi carrito{" "}
