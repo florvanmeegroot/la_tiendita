@@ -31,7 +31,7 @@ function VistaProducto() {
         />
 
         <div className="producto-info">
-          <p className="categoria">Categoría: {producto.categoria}</p>
+          <p className="categoria">Categoría: {producto.categoriaId}</p>
           <h2 className="titulo-card">{producto.title}</h2>
           <p className="descripcion">{producto.description}</p>
           <p className="precio">${producto.precio}</p>

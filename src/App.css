@@ -262,7 +262,7 @@ button:focus-visible {
 
 .producto-img {
   width: 100%;
-  max-width: 450px;
+  max-width: 350px;
   border-radius: 16px;
   margin: 1em auto;
   padding: 1em auto;
@@ -398,6 +398,51 @@ button:focus-visible {
   font-size: 1em;
   color: black;
   margin: 2em auto;
+}
+
+/* FORMULARIO CHECKOUT */
+.form-final {
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-checkout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  margin-top: 2em;
+}
+
+.form-checkout h3 {
+  font-family: var(--fuente-principal);
+  font-size: 1.5em;
+  font-weight: 800;
+  color: var(--color-principal);
+}
+
+.form-checkout input {
+  padding: 0.5em;
+  border-radius: 8px;
+  border: 2px solid var(--color-principal-ligth);
+  font-family: var(--fuente-principal);
+  font-size: 1em;
+  width: 250px;
+}
+
+.btn-finalizar {
+  background-color: var(--color-principal);
+  border: none;
+  border-radius: 32px;
+  padding: 0.5em 1.5em;
+  margin: 1em;
+  cursor: pointer;
+  color: white;
+  font-family: var(--fuente-principal);
+  font-size: 1em;
+  transition: all 0.3s ease;
 }
 
 /* ----- MEDIAS QUERIES ----- */

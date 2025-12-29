@@ -3,17 +3,25 @@ function Filtros({
   categoriaSeleccionada,
   setCategoriaSeleccionada,
 }) {
-  const categorias = ["Todos", ...new Set(productos.map((p) => p.categoria))];
+  const categorias = [
+    { id: "todos", nombre: "Todos" },
+    ...Array.from(
+      new Set(productos.map((p) => p.categoriaId))
+    ).map((cat) => ({
+      id: cat,
+      nombre: cat,
+    })),
+  ];
 
   return (
     <div className="filtros">
       {categorias.map((cat) => (
         <button
-          key={cat}
-          className={categoriaSeleccionada === cat ? "activo" : ""}
-          onClick={() => setCategoriaSeleccionada(cat)}
+          key={cat.id}
+          className={categoriaSeleccionada === cat.id ? "activo" : ""}
+          onClick={() => setCategoriaSeleccionada(cat.id)}
         >
-          {cat}
+          {cat.nombre}
         </button>
       ))}
     </div>

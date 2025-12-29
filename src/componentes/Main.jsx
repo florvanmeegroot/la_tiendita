@@ -1,24 +1,21 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Card from "./Card";
 import Filtros from "./Filtros";
 
 function Main() {
   const [productos, setProductos] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState("Todos");
+  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState("todos");
 
   useEffect(() => {
     const fetchProductos = async () => {
       try {
-        const response = await fetch("src/data/productos.json");
+        const response = await fetch("/src/data/productos.json");
         const data = await response.json();
         setProductos(data);
         setLoading(false);
       } catch (error) {
-        console.error(
-          "Lo siento, hay un error al cargar los productos:",
-          error
-        );
+        console.error("Error al cargar productos:", error);
       }
     };
 
@@ -28,9 +25,9 @@ function Main() {
   if (loading) return <p>Cargando productos...</p>;
 
   const productosFiltrados =
-    categoriaSeleccionada === "Todos"
+    categoriaSeleccionada === "todos"
       ? productos
-      : productos.filter((p) => p.categoria === categoriaSeleccionada);
+      : productos.filter((p) => p.categoriaId === categoriaSeleccionada);
 
   return (
     <main className="main">
@@ -48,10 +45,10 @@ function Main() {
             key={item.id}
             imageUrl={item.imageUrl}
             title={item.title}
-            categoria={item.categoria}
             precio={item.precio}
             id={item.id}
             description={item.description}
+            categoriaId={item.categoriaId}
           />
         ))}
       </div>
