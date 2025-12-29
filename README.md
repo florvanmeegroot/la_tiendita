@@ -22,7 +22,7 @@ En el proyecto se utilizó:
 
 - Firebase para obtener y almacenar productos y órdenes de compra
 - Cloudinary como CDN para la gestión y carga de imágenes
-- Netlify para el despliegue de la aplicación
+- Vercel para el despliegue de la aplicación
 
 ## 🎯 Objetivo del proyecto
 

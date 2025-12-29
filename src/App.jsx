@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { StrictMode } from "react";
 import "./App.css";
-import Header from "./componentes/header";
+import Header from "./componentes/Header";
 import Main from "./componentes/Main";
 import Footer from "./componentes/Footer";
 import ProductoVista from "./componentes/ProductoVista";
